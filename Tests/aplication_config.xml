@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE application_config
+        [
+                <!ELEMENT test_config (test_database)>
+                    <!ELEMENT test_database (#PCDATA)>
+                        <!ATTRLIST test_database database_name CDATA #REQUIRED>
+]>
+
+<test_config>
+    
+</test_config>
